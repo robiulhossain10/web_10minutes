@@ -1,0 +1,108 @@
+#hero_section {
+  background-color: #343a40;
+}
+
+.hero-child {
+  /* width: 600px; */
+  text-align: center;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  position: relative;
+}
+.head {
+  background-color: red;
+  color: #fff;
+  width: 150px;
+  border-radius: 50px;
+  position: absolute;
+  top: 35px;
+  left: 570px;
+  z-index: 99;
+  background: linear-gradient(90deg, #0700b8 0%, #00bbff 100%);
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.first-div {
+  width: 600px;
+  height: 300px;
+  background: #6190e8;
+  background: linear-gradient(90deg, #3f2b96 0%, #a8c0ff 100%);
+  border-radius: 15px;
+  color: white;
+  padding-top: 70px;
+}
+.first-div a,
+.second-div a {
+  color: rgb(4, 202, 4);
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.first-div a:hover,
+.second-div a:hover {
+  text-decoration: underline;
+}
+
+.second-div {
+  width: 600px;
+  height: 300px;
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+
+  border-radius: 15px;
+  color: white;
+  padding-top: 70px;
+}
+
+.main-box .icon1 {
+  color: white;
+  font-size: 50px;
+}
+
+.second-div .head2 {
+  background-color: red;
+  color: yellow;
+  width: 150px;
+  border-radius: 50px;
+  position: absolute;
+  top: 35px;
+  right: 570px;
+  z-index: 999;
+  background: linear-gradient(90deg, #0ab1d2 0%, #a26812 100%);
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .first-div .head {
+    background-color: rgb(24, 184, 152);
+    color: yellow;
+    width: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    z-index: 999;
+    background: linear-gradient(90deg, #0ab1d2 0%, #a26812 100%);
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  .second-div .head2 {
+    background-color: rgb(24, 184, 152);
+    color: yellow;
+    width: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 360px;
+    right: 140px;
+    z-index: 999;
+    background: linear-gradient(90deg, #0ab1d2 0%, #a26812 100%);
+    border: 1px solid white;
+    cursor: pointer;
+  }
+}
